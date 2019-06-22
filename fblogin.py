@@ -16,3 +16,6 @@ fb_userbox.send_keys(username)
 
 fb_passbox = driver.find_element_by_id("pass")
 fb_passbox.send_keys(password)
+
+submit_btn = driver.find_element_by_id("u_0_a")
+submit_btn.click() 
